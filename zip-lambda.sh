@@ -11,7 +11,7 @@ echo "Do fresh install to make sure everything is there"
 pipenv install
 
 cd $SITE_PACKAGES
-zip -r9 $DIR/function.zip *
+zip -r9 $DIR/lambda-function.zip *
 
 cd $DIR
-zip -g function.zip simple-lambda.py
+zip -g lambda-function.zip simple-lambda.py
